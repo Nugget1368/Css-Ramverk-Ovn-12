@@ -7,6 +7,9 @@ main{
 }
 
 header a.navbar-item:hover{
-    color: 	hsl(142, 52%, 96%);
-    background-color: (171, 100%, 41%);
+    color: black;
+}
+
+.day-of-week {
+    text-decoration: line-through;
 }
