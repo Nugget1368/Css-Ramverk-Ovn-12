@@ -1,0 +1,10 @@
+
+Er uppgift är att undersöka ett valt ramverk och sedan skapa en portfoliosida med hjälp utav funktionalitet från ramverket. 
+
+Bygg en enkel portfolio-sida där ni använder er utav funktionaliteten som kommer med det valda ramverket så gott det går!
+
+Se om ni kan använda:
+
+Färdiga komponenter som formulär, knappar, navigation-knappar etc.
+
+Grid system för responsivitet

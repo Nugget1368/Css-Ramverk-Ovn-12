@@ -1,0 +1,12 @@
+html, body, main{
+    min-height: 100vh;
+}
+
+main{
+    margin-top: 50px;
+}
+
+header a.navbar-item:hover{
+    color: 	hsl(142, 52%, 96%);
+    background-color: (171, 100%, 41%);
+}

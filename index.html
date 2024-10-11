@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bulma Tryout</title>
+  </head>
+  <body>
+    <header>
+      <section class="hero is-success is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <header class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <img
+                    src="https://bulma.io/assets/images/bulma-type-white.png"
+                    alt="Logo"
+                  />
+                </a>
+                <span class="navbar-burger" data-target="navbarMenuHeroC">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroC" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item" href="#"> Home </a>
+                  <a class="navbar-item" href="#"> Not Home </a>
+                  <a class="navbar-item" href="#"> Your Neighboors Home </a>
+                </div>
+              </div>
+            </div>
+          </header>
+        </div>
+
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title">Tacos på fredag?</p>
+            <p class="subtitle">Idag är det fredag...</p>
+          </div>
+        </div>
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot">
+          <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+              <ul>
+                <li class="is-active"><a>Overview</a></li>
+                <li><a>Modifiers</a></li>
+                <li><a>Grid</a></li>
+                <li><a>Elements</a></li>
+                <li><a>Components</a></li>
+                <li><a>Layout</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div
+        class="is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center is-align-content-center"
+      >
+        <div class="card m-5" style="width: 18rem">
+          <img src="./images/taco-1.jpeg" class="card-img-top" alt="A Taco" />
+          <div
+            class="card-body p-3 is-flex is-flex-direction-column is-justify-content-space-evenly"
+          >
+            <h5 class="card-title mb-4 is-size-5">Taco in paper</h5>
+            <p class="card-text">A quick and simple taco in paper.</p>
+            <a href="#" class="btn btn-primary">Go to Taco</a>
+          </div>
+        </div>
+      </div>
+    </main>
+        <footer class="footer">
+            <div class="content has-text-centered">
+              <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">ROBERT GRIMSBORN</a>.
+                The source code is NOT licensed
+                <a href="https://opensource.org/license/mit">MIT</a>. The
+                website content is NOT licensed
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0//"
+                  >CC BY NC SA 4.0</a
+                >.
+              </p>
+            </div>
+          </footer>
+  </body>
+</html>
